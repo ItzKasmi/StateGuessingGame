@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb72206d-d7d7-4c55-bbe0-21008bb1ab15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20240314.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/squirrel_count.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="eb72206d-d7d7-4c55-bbe0-21008bb1ab15" name="Changes" comment="Setting Up for States Game">
+      <change afterPath="$PROJECT_DIR$/50_states.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blank_states_img.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -40,6 +38,11 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kasmi\PycharmProjects\StateGuessingGame\Learning Pandas" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -56,6 +59,15 @@
       <option name="presentableId" value="Default" />
       <updated>1710446319906</updated>
     </task>
+    <task id="LOCAL-00001" summary="Setting Up for States Game">
+      <option name="closed" value="true" />
+      <created>1710451433865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710451433865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -63,5 +75,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Setting Up for States Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting Up for States Game" />
   </component>
 </project>
