@@ -16,6 +16,7 @@ ALIGNMENT = "left"
 FONT = ("arial", 8, "normal")
 
 correct_guess = 0
+guessed_states = []
 
 def write_answer(answered_state):
     coordinates = data[data.state == answered_state]
@@ -32,8 +33,16 @@ while correct_guess != 50:
     answer = screen.textinput(title=f"{correct_guess}/50 States Correct", prompt="What's another state's name?")
     answer = answer.title()
 
+    if answer == "Exit":
+        missed_states = []
+        for missed_state in state:
+            if missed_state not in guessed_states:
+                missed_states.append(missed_state)
+        new_data = pandas.DataFrame(missed_states)
+        new_data.to_csv("states_to_learn.csv")
+        break
+
     if answer in state:
         write_answer(answer)
+        guessed_states.append(answer)
         correct_guess += 1
-
-turtle.mainloop()
